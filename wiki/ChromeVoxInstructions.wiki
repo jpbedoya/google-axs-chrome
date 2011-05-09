@@ -7,7 +7,6 @@ The browser beeps when a page has finished loading and is ready for you to navig
   * The !ChromeVox modifier keys are `Control+Alt` on Windows, Mac, and Linux. On Chrome OS devices, the modifier keys are `Shift+Search`. You use the modifier keys in conjunction with other keys to control !ChromeVox.
   * To navigate forwards and backwards through a page, use the !ChromeVox modifier keys with the `down` and `up` arrow keys.
   * To change the amount of content !ChromeVox will speak at a time, use the !ChromeVox modifier keys with the `left` and `right` arrow keys.
-  * Use the `Tab` key to skip between selectable items such as links, tabs, and command buttons. When you reach the item you want to select, press `Enter`.
   * At any time, you can press the `Control` key to stop the current speech.
 
 = User Guide =
