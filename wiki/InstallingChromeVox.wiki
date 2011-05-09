@@ -15,4 +15,4 @@ On Windows and Mac platforms, the !ChromeVox TTS (text-to-speech) will work with
 Download `chromevox.crx` from the [http://code.google.com/p/google-axs-chrome/downloads/list Downloads Page]. `chromevox.crx` is a packaged Chrome extension ready to use. Chrome will probably allow you to install !ChromeVox immediately after you download the `.crx`. Otherwise, navigate to the path of the `.crx` file in Chrome and you can install it directly.
 
 = Installing as an unpacked extension =
-chromevox/ is the unpacked directory tree of chromevox.crx. !ChromeVox is written in JavaScript and as a result does not need to be compiled. You can load the unpacked version of !ChromeVox in Chrome by visiting [chrome://extensions/], enabling Developer mode, and clicking "Load Unpacked Extension".
+chromevox/ is the unpacked directory tree of chromevox.crx. !ChromeVox is written in !JavaScript and as a result does not need to be compiled. You can load the unpacked version of !ChromeVox in Chrome by visiting <a href="chrome://extensions/">chrome://extensions/</a>, enabling Developer mode, and clicking "Load Unpacked Extension".
