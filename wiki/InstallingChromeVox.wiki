@@ -1,4 +1,4 @@
-#summary Instructions for installing ChromeVox as a Chrome Extension
+#summary Steps for installing ChromeVox as a Chrome Extension
 #labels Featured
 
 = Overview =
