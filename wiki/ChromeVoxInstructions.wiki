@@ -1,4 +1,4 @@
-#summary A guide to using !ChromeVox
+#summary A guide to using ChromeVox
 #labels Featured
 
 = Quick Start =
