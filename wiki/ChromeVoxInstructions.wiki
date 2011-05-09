@@ -1,7 +1,7 @@
 #summary A guide to using ChromeVox
 #labels Featured
 
-= Quick Start =
+= ChromeVox Quick Start =
 The browser beeps when a page has finished loading and is ready for you to navigate.
 
   * The !ChromeVox modifier keys are `Control+Alt` on Windows, Mac, and Linux. On Chrome OS devices, the modifier keys are `Shift+Search`. You use the modifier keys in conjunction with other keys to control !ChromeVox.
