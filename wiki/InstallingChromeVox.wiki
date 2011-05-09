@@ -1,0 +1,18 @@
+#summary Instructions for installing ChromeVox as a Chrome Extension
+#labels Phase-Deploy
+
+= Overview =
+You can run !ChromeVox as a packed or unpacked Chrome extension on any platform. If you have any trouble installing !ChromeVox, please try asking for help on the [http://groups.google.com/group/axs-chrome-discuss axs-chrome-discuss mailing list]. 
+
+After you install !ChromeVox, anytime the extension is active !ChromeVox will be active. However, you will have to refresh pages that were already open before you activated !ChromeVox.
+
+= Dependencies =
+!ChromeVox depends on [http://code.google.com/chrome/extensions/experimental.html experimental Chrome APIs], and you can't install !ChromeVox without first enabling them in Chrome. To enable the experimental APIs, visit [chrome://flags] in your browser and click "Enable" under Experimental Extension APIs. Or, you can run Chrome from the command line with the  --enable-experimental-extension-apis flag.
+
+On Windows and Mac platforms, the !ChromeVox TTS (text-to-speech) will work without any extra steps on your part. On Linux, you will have to set up the TTS yourself. This can be a complicated process, but we are working on posting instructions soon.
+
+= Installing as a packed extension =
+Download `chromevox.crx` from the [http://code.google.com/p/google-axs-chrome/downloads/list Downloads page]. `chromevox.crx` is a packaged Chrome extension ready to use. Chrome will probably allow you to install !ChromeVox immediately after you download the `.crx`. Otherwise, navigate to the path of the `.crx` file in Chrome and you can install it directly.
+
+= Installing as an unpacked extension =
+chromevox/ is the unpacked directory tree of chromevox.crx. !ChromeVox is written in JavaScript and as a result does not need to be compiled. You can load the unpacked version of !ChromeVox in Chrome by visiting [chrome://extensions/], enabling Developer mode, and clicking "Load Unpacked Extension".
