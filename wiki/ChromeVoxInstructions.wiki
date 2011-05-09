@@ -14,6 +14,6 @@ We've written a [http://google-axs-chrome.googlecode.com/svn/trunk/chromevox_tut
 
 Please note that the documentation is aimed at end users using !ChromeVox on Chrome OS devices. That's why the guide refers to "starting !ChromeVox with Control+Alt+Z at the sign-in screen" and we refer to the `Search` key. 
 
-*Also, on platforms other than Chrome OS, the !ChromeVox modifier keys are `Control+Alt`.  So if you're running !ChromeVox on Windows, Mac, or Linux, in the documentation whenever you see `Shift+Search` use `Control+Alt` instead*
+*Also, on platforms other than Chrome OS the !ChromeVox modifier keys are `Control+Alt`.  So if you're running !ChromeVox on Windows, Mac, or Linux, in the documentation whenever you see `Shift+Search` use `Control+Alt` instead*
 
 Please bear with us!  The user guide is still a work in progress. It covers the basics of using !ChromeVox, but we're still writing pages on more sophisticated topics like page-specific commands. For right now, the table navigation page is the last page.
