@@ -11,6 +11,8 @@ After you install !ChromeVox, anytime the extension is active !ChromeVox will be
 
 On Windows and Mac platforms, the !ChromeVox TTS (text-to-speech) will work without any extra steps on your part. On Linux, you will have to set up the TTS yourself. This can be a complicated process, but we are working on posting instructions soon.
 
+*Note:* You can actually run !ChromeVox without the TTS by using the !ChromeVox lens to display the text that would normally be spoken by the TTS. Find out how to activate the lens on the ChromeVoxInstructions page.
+
 = Installing as a packed extension =
 Download `chromevox.crx` from the [http://code.google.com/p/google-axs-chrome/downloads/list Downloads Page]. `chromevox.crx` is a packaged Chrome extension ready to use. Chrome will probably allow you to install !ChromeVox immediately after you download the `.crx`. Otherwise, navigate to the path of the `.crx` file in Chrome and you can install it directly.
 
