@@ -1,15 +1,15 @@
 #summary ChromeVox API
 
-= [http://code.google.com/p/google-axs-chrome ChromeVox API] =
+= !ChromeVox API =
 
-The [http://code.google.com/p/google-axs-chrome ChromeVox] API allows web applications to interact with [http://code.google.com/p/google-axs-chrome ChromeVox] in order to provide smoother, richer auditory user interfaces.
+The !ChromeVox API allows web applications to interact with !ChromeVox in order to provide smoother, richer auditory user interfaces.
 
-These APIs allow web developers to make [http://code.google.com/p/google-axs-chrome ChromeVox] speak custom messages, play earcons, and set [http://code.google.com/p/google-axs-chrome ChromeVox's] internal reading position.
+These APIs allow web developers to make !ChromeVox speak custom messages, play earcons, and set !ChromeVox's internal reading position.
 
 
 = Details =
 
-The following [http://en.wikipedia.org/wiki/JavaScript JavaScript] methods are available:
+The following !JavaScript methods are available:
 ----
   ===cvox.Api.speak(textString, queueMode, properties)===
     Speaks the given string using the specified queueMode and properties.
