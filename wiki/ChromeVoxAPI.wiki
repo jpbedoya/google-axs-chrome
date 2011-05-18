@@ -14,11 +14,11 @@ The following JavaScript methods are available:
   ==cvox.Api.speak(textString, queueMode, properties)==
     Speaks the given string using the specified queueMode and properties.
 
-    *_textString_* The string of text to be spoken.
+    *_textString_*  The string of text to be spoken.
 
-    *_queueMode_* Valid modes are 0 for flush; 1 for queue.
+    *_queueMode_*   Valid modes are 0 for flush; 1 for queue.
 
-    *_properties_* Speech properties to use for this utterance.
+    *_properties_*  Speech properties to use for this utterance.
     
 
 
