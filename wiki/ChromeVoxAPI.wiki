@@ -9,7 +9,7 @@ These APIs allow web developers to make [http://code.google.com/p/google-axs-chr
 
 = Details =
 
-The following JavaScript methods are available:
+The following [http://en.wikipedia.org/wiki/JavaScript JavaScript] methods are available:
 ----
   ===cvox.Api.speak(textString, queueMode, properties)===
     Speaks the given string using the specified queueMode and properties.
