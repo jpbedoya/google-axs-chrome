@@ -10,7 +10,7 @@ These APIs allow web developers to make ChromeVox speak arbitrary strings of tex
 = Details =
 
 The following JavaScript methods are available:
-
+---- 
   ===cvox.Api.speak(textString, queueMode, properties)===
     Speaks the given string using the specified queueMode and properties.
 
@@ -19,9 +19,75 @@ The following JavaScript methods are available:
     * *queueMode*   Valid modes are 0 for flush; 1 for queue.
 
     * *properties*  Speech properties to use for this utterance.
-    
+---- 
+  ===cvox.Api.stop()===
+    Stops speech.
+---- 
+  ===cvox.Api.playEarcon(earcon)===
+    Plays the specified earcon sound.
 
+    * *earcon* An earcon name.
+   Valid names are:
+     ALERT_MODAL
 
+       ALERT_NONMODAL
+
+     BULLET
+
+     BUSY_PROGRESS_LOOP
+
+     BUSY_WORKING_LOOP
+
+     BUTTON
+
+     CHECK_OFF
+
+     CHECK_ON
+
+     COLLAPSED
+
+     EDITABLE_TEXT
+
+     ELLIPSIS
+
+     EXPANDED
+
+     FONT_CHANGE
+
+     INVALID_KEYPRESS
+
+     LINK
+
+     LISTBOX
+
+     LIST_ITEM
+
+     NEW_MAIL
+
+     OBJECT_CLOSE
+
+     OBJECT_DELETE
+
+     OBJECT_DESELECT
+
+     OBJECT_OPEN
+
+     OBJECT_SELECT
+
+     PARAGRAPH_BREAK
+
+     SEARCH_HIT
+
+     SEARCH_MISS
+
+     SECTION
+
+     TASK_SUCCESS
+
+     WRAP
+
+     WRAP_EDGE
+---- 
 
 
 [http://code.google.com/p/google-axs-chrome/source/browse/trunk/chromevox/chromevox/injected/api.js The JS file that defines the ChromeVox API can be found here.]
