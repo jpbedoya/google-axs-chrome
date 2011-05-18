@@ -1,0 +1,21 @@
+#summary ChromeVox API
+
+= ChromeVox API =
+
+The ChromeVox API allows web applications to interact with ChromeVox in order to provide smoother, richer auditory user interfaces.
+
+These APIs allow web developers to make ChromeVox speak arbitrary strings of text, play earcons, and set ChromeVox's internal reading position.
+
+
+= Details =
+
+The ChromeVox API can be found here: http://code.google.com/p/google-axs-chrome/source/browse/trunk/chromevox/chromevox/injected/api.js
+
+The following JavaScript methods are available:
+
+  * *cvox.Api.speak(textString, queueMode, properties)*
+    Speaks the given string using the specified queueMode and properties.
+    _textString_ The string of text to be spoken.
+    _queueMode_ Valid modes are 0 for flush; 1 for queue.
+    _properties_ Speech properties to use for this utterance.
+    
