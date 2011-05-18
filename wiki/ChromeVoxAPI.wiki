@@ -2,7 +2,7 @@
 
 = [http://code.google.com/p/google-axs-chrome ChromeVox API] =
 
-The ChromeVox API allows web applications to interact with [http://code.google.com/p/google-axs-chrome ChromeVox] in order to provide smoother, richer auditory user interfaces.
+The [http://code.google.com/p/google-axs-chrome ChromeVox] API allows web applications to interact with [http://code.google.com/p/google-axs-chrome ChromeVox] in order to provide smoother, richer auditory user interfaces.
 
 These APIs allow web developers to make [http://code.google.com/p/google-axs-chrome ChromeVox] speak custom messages, play earcons, and set [http://code.google.com/p/google-axs-chrome ChromeVox's] internal reading position.
 
