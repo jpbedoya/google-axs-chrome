@@ -11,7 +11,7 @@ These APIs allow web developers to make ChromeVox speak arbitrary strings of tex
 
 The following JavaScript methods are available:
 
-  ==cvox.Api.speak(textString, queueMode, properties)==
+  ===cvox.Api.speak(textString, queueMode, properties)===
     Speaks the given string using the specified queueMode and properties.
 
     * *textString*  The string of text to be spoken.
