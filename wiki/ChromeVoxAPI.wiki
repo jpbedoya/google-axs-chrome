@@ -28,8 +28,11 @@ The following JavaScript methods are available:
 
     * *earcon* An earcon name.
    Valid names are:
+
      ALERT_MODAL
+
      ALERT_NONMODAL
+
      BULLET
 
      BUSY_PROGRESS_LOOP
