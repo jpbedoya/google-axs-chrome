@@ -1,4 +1,4 @@
-#summary A guide to the permissions that !ChromeVox requests on install.
+#summary A guide to the permissions that ChromeVox requests on install.
 #labels Featured
 
 When you install !ChromeVox, a dialog pops up titled "Confirm Installation" that lists the permissions that !ChromeVox needs in order to run in your browser. Just like when you install any other screen reader, !ChromeVox requests these permissions from you so that it can effectively speak the content on every page that you visit.
