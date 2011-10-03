@@ -2,7 +2,7 @@
 #labels Featured
 
 = Overview =
-!ChromeVox is a Chrome extension for Chrome 14 or higher on any platform. If you have any trouble installing !ChromeVox, please try asking for help on the [http://groups.google.com/group/axs-chrome-discuss axs-chrome-discuss mailing list]. Make sure to say what version of Chrome and which operating system you are using.
+!ChromeVox is a Chrome extension for Chrome 14 or higher and runs on Mac, Windows, or Linux. If you have any trouble installing !ChromeVox, please try asking for help on the [http://groups.google.com/group/axs-chrome-discuss axs-chrome-discuss mailing list]. Make sure to say what version of Chrome and which operating system you are using.
 
 After you install !ChromeVox, any time the extension is active !ChromeVox will be active. However, you will have to refresh pages that were already open before you activated !ChromeVox.
 
