@@ -9,12 +9,12 @@ After you install !ChromeVox, any time the extension is active !ChromeVox will b
 = Dependencies =
 You need to install Chrome in order to use !ChromeVox. !ChromeVox works on Chrome 14 or higher - we recommend using the Chrome Beta Channel.
 
-On Windows and Mac platforms, the !ChromeVox TTS (text-to-speech) will work without any extra steps on your part. On Linux, you will have to set up the TTS yourself. This can be a complicated process, but we are working on posting instructions soon.
+On Windows and Mac platforms, the !ChromeVox TTS (text-to-speech) will work without any extra steps on your part. On Linux, you will have to set up the TTS yourself.
 
 *Please note:* !ChromeVox is still in development and currently doesn’t work in conjunction with desktop screen readers. In order to best use !ChromeVox on your computer, you will need to disable your desktop screen reader when using !ChromeVox. 
 
 = Installing !ChromeVox =
-You can install !ChromeVox from the Chrome Web Store. Choose the installation instructions for your platform:
+You can install !ChromeVox from the Chrome Web Store. Choose the installation instructions for your platform. Instructions for Linux will be posted soon.
   * [http://google-axs-chrome.googlecode.com/svn/trunk/chromevox_tutorial/setup_chromevox_mac.html Instructions for Mac]
   * [http://google-axs-chrome.googlecode.com/svn/trunk/chromevox_tutorial/setup_chromevox_windows.html Instructions for Windows]
 
