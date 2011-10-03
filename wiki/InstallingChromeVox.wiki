@@ -2,19 +2,20 @@
 #labels Featured
 
 = Overview =
-You can run !ChromeVox as a packed or unpacked Chrome extension on any platform. If you have any trouble installing !ChromeVox, please try asking for help on the [http://groups.google.com/group/axs-chrome-discuss axs-chrome-discuss mailing list]. 
+You can run !ChromeVox as a Chrome extension for Chrome 14 or higher on any platform. If you have any trouble installing !ChromeVox, please try asking for help on the [http://groups.google.com/group/axs-chrome-discuss axs-chrome-discuss mailing list]. Make sure to say what version of Chrome and which operating system you are using.
 
-After you install !ChromeVox, anytime the extension is active !ChromeVox will be active. However, you will have to refresh pages that were already open before you activated !ChromeVox.
+After you install !ChromeVox, any time the extension is active !ChromeVox will be active. However, you will have to refresh pages that were already open before you activated !ChromeVox.
 
 = Dependencies =
-!ChromeVox depends on [http://code.google.com/chrome/extensions/experimental.html experimental Chrome APIs], and you can't install !ChromeVox without first enabling them in Chrome. To enable the experimental APIs, visit <a href="chrome://flags">chrome://flags</a> in your browser and click "Enable" under Experimental Extension APIs. Or, you can run Chrome from the command line with the  `--enable-experimental-extension-apis` flag.
+You need to install Chrome in order to use !ChromeVox. !ChromeVox works on Chrome 14 or higher - we recommend using the Chrome Beta Channel.
 
 On Windows and Mac platforms, the !ChromeVox TTS (text-to-speech) will work without any extra steps on your part. On Linux, you will have to set up the TTS yourself. This can be a complicated process, but we are working on posting instructions soon.
 
-*Note:* You can run !ChromeVox without TTS by using the !ChromeVox lens to display the text that would normally be spoken by the TTS. Find out how to activate the lens here: [ChromeVoxInstructions#The_ChromeVox_Lens].
+*Please note:* !ChromeVox is still in development and currently doesn’t work in conjunction with desktop screen readers. In order to best use !ChromeVox on your computer, you will need to disable your desktop screen reader when using !ChromeVox. 
 
-= Installing as a packed extension =
-Download `chromevox.crx` from the [http://code.google.com/p/google-axs-chrome/downloads/list Downloads Page]. `chromevox.crx` is a packaged Chrome extension ready to use. Chrome will probably allow you to install !ChromeVox immediately after you download the `.crx`. Otherwise, navigate to the path of the `.crx` file in Chrome and you can install it directly.
+= Installing !ChromeVox =
+You can install !ChromeVox from the Chrome Web Store. Choose the installation instructions for your platform:
+  * [http://google-axs-chrome.googlecode.com/svn/trunk/chromevox_tutorial/setup_chromevox_mac.html Instructions for Mac]
+  * [http://google-axs-chrome.googlecode.com/svn/trunk/chromevox_tutorial/setup_chromevox_windows.html Instructions for Windows]
 
-= Installing as an unpacked extension =
-`chromevox/` is the unpacked directory tree of `chromevox.crx`. !ChromeVox is written in !JavaScript and as a result does not need to be compiled. You can load the unpacked version of !ChromeVox in Chrome by visiting <a href="chrome://extensions/">chrome://extensions/</a>, enabling Developer mode, and clicking "Load Unpacked Extension".
+*Please note:* For security reasons, !ChromeVox will not run on the Chrome Web Store itself. All Chrome extensions follow this rule.
