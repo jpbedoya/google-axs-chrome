@@ -16,4 +16,4 @@ You can install !ChromeVox from the Chrome Web Store. Choose the installation in
   * [http://google-axs-chrome.googlecode.com/svn/trunk/chromevox_tutorial/setup_chromevox_mac.html Instructions for Mac]
   * [http://google-axs-chrome.googlecode.com/svn/trunk/chromevox_tutorial/setup_chromevox_windows.html Instructions for Windows]
 
-*Please note:* For security reasons, !ChromeVox will not run on the Chrome Web Store itself. All Chrome extensions follow this rule.
+*Please note:* For security reasons, !ChromeVox will not talk when you're browsing the Chrome Web Store. All Chrome extensions follow this rule.
