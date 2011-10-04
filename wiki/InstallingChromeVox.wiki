@@ -7,7 +7,7 @@
 After you install !ChromeVox, any time the extension is active !ChromeVox will speak to you. However, you will have to refresh pages that were already open before you activated !ChromeVox.
 
 = Dependencies =
-You need to install Chrome in order to use !ChromeVox. !ChromeVox works on Chrome 14 or higher - we recommend using the Chrome Beta Channel.
+You need to [http://www.google.com/chrome install Chrome] in order to use !ChromeVox. !ChromeVox works on Chrome 14 or higher - we recommend using the Chrome Beta Channel.
 
 On Windows and Mac platforms, the !ChromeVox TTS (text-to-speech) will work without any extra steps on your part. On Linux, you will have to set up the TTS yourself.
 
